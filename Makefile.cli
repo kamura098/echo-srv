@@ -1,0 +1,6 @@
+files = signal.c errs.c wrapers.c rWr.c
+main = cli.c
+name = cli
+
+all:
+	gcc -g $(main) $(files) -o $(name)

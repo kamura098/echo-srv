@@ -1,0 +1,6 @@
+files = signal.c errs.c wrapers.c rWr.c
+main = srv.c
+name = srv 
+
+all:
+	gcc -g $(main) $(files) -o $(name)
